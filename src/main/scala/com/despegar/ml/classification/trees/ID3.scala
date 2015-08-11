@@ -7,7 +7,7 @@ import com.despegar.ml.classification.Preamble._
  */
 class ID3 {
 
-  type DataSet = List[List[Any]]
+
 
   trait Element {
     val isLeaf: Boolean = childs.size == 0

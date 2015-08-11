@@ -6,6 +6,7 @@ package com.despegar.ml.classification
 
 object Preamble {
 
+  type DataSet = List[List[Any]]
   type DoubleVector = List[Double]
   type DoubleMatrix = List[DoubleVector]
 
